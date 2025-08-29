@@ -36,6 +36,7 @@ p {
   border-radius: 8px;
   text-decoration: none;
   margin-left: 20px;
+  
 }
 .btn_res {
   display: inline-block; 
@@ -83,7 +84,7 @@ p {
   text-align: center;
 }
  .container {
-      height: 50vh;
+      height: 50hv;
       display: grid;
       gap: 3rem;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -106,11 +107,19 @@ p {
   display: grid;
   grid-template-columns: 1fr;  /* mobile: 1 column */
   gap: 20px;                  /* spacing between items */
-  padding: 20px;
+  padding: 20px ;
   background-color: #f2f2f2;  /* light gray */
   color: #333;                /* dark gray text */
 }
-
+.sectionm  {
+  text-decoration: none;
+    width: 32%;
+    min-height: 200px;
+    margin-left: 20px;
+  color: #0077cc;             /* blue links */
+  background-color: rgb(211, 211, 211);
+  border-radius: 20px;              
+}
 /* When screen is at least 768px (tablet/desktop) → 3 columns */
 @media (min-width: 768px) {
   .section {
